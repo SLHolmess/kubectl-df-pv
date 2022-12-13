@@ -1,4 +1,4 @@
-module github.com/yashbhutwala/kubectl-df-pv
+module github.com/SLHolmess/kubectl-df-pv
 
 go 1.16
 
