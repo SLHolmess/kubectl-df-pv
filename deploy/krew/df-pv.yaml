@@ -3,14 +3,15 @@ kind: Plugin
 metadata:
   name: df-pv
 spec:
-  version: v0.1
+  version: v0.0.1
   platforms:
   - selector:
       matchLabels:
         os: linux
         arch: amd64
     # {{addURIAndSha "https://github.com/yashbhutwala/kubectl-df-pv/releases/download/{{ .TagName }}/kubectl-df-pv_{{ .TagName }}_linux_amd64.tar.gz" .TagName }}
-    uri: https://github.com/SLHolmess/kubectl-df-pv/releases/download/v0.1/df-pv.tar.gz
+    uri: https://github.com/SLHolmess/kubectl-df-pv/releases/download/v0.0.1/df-pv.tar.gz
+    sha256: f52884d8c6d295171d87884892baaf2e45b8ae914b9652ac1d788b9aceca4674
     files:
     - from: "df-pv"
       to: "."
